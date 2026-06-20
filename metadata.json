@@ -1,0 +1,6 @@
+{
+  "name": "CalGro",
+  "description": "Multi-sector registry, metrology standards database, and organic agriculture directory for the premium domain asset calgro.com.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
