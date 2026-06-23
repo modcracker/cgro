@@ -1,6 +1,9 @@
 import { MetadataRoute } from 'next';
 import { seoPages } from '@/lib/seoData';
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.calgro.com';
 
@@ -14,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/calcium-physiology',
     '/domain-asset',
     '/seo-directory',
+    '/calcium-groves',
+    '/california-greenhouses',
   ].map((route) => {
     // Dynamic home page or detail pages
     const isHome = route === '';
