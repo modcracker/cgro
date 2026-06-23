@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { seoPages } from '@/lib/seoData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://calgro.com';
+  const baseUrl = 'https://www.calgro.com';
 
   const staticPages = [
     '',

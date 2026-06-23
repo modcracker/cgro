@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://calgro.com/sitemap.xml',
+    sitemap: 'https://www.calgro.com/sitemap.xml',
   };
 }

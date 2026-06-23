@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       title: `${page.title} | CalGro Diagnostic Archive`,
       description: page.metaDescription,
-      url: `https://calgro.com/seo-directory/${page.slug}`,
+      url: `https://www.calgro.com/seo-directory/${page.slug}`,
       siteName: 'CalGro Agronomic Registry',
       images: [
         {
@@ -92,7 +92,7 @@ export default async function SeoDetailPage({ params }: PageProps) {
     'author': {
       '@type': 'Organization',
       'name': 'CalGro Scientific Registry Board',
-      'url': 'https://calgro.com'
+      'url': 'https://www.calgro.com'
     },
     'publisher': {
       '@type': 'Organization',
@@ -106,7 +106,7 @@ export default async function SeoDetailPage({ params }: PageProps) {
     'dateModified': '2026-06-20T12:00:00+08:00',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': `https://calgro.com/seo-directory/${page.slug}`
+      '@id': `https://www.calgro.com/seo-directory/${page.slug}`
     }
   };
 

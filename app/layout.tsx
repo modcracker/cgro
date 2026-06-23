@@ -21,9 +21,24 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.calgro.com'),
   title: 'CalGro | Core Domain Asset & Multi-Sector Semantic Registry in California',
   description: 'The definitive digital authority registry, soil metrology parameters, and agricultural systems database for the term CalGro. Review acquisition values, licensing archives, and system indexes for calgro.com.',
   keywords: 'calgro, cal gro, calgro.com, california growers, calcium growth, agricultural metrology, california organic grocers, calibration algorithms',
+  alternates: {
+    canonical: '/',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
